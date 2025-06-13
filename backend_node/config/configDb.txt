@@ -2,22 +2,22 @@ use btbz93afntuww2xjiosn;
 
 create table people (
 	id int not null AUTO_INCREMENT primary key,
-    nome varchar(100),
+    name varchar(100),
     lastname varchar(100),
     salary float
 );
 
-insert into people (nome, lastname, salary) values 
-('João', 'Silva', R$ 5.500),
-('Maria', 'Oliveira', R$ 7.200),
-('Pedro', 'Souza', R$ 4.800),
-('Ana', 'Costa', R$ 6.300),
-('Carlos', 'Pereira', R$ 8.000),
-('Fernanda', 'Lima', R$ 6.700),
-('Lucas', 'Almeida', R$ 5.200),
-('Camila', 'Santos', R$ 9.000),
-('Gabriel', 'Rocha', R$ 7.800),
-('Júlia', 'Martins', R$ 6.900);
+insert into people (name, lastname, salary) values 
+('João', 'Silva', 5500),
+('Maria', 'Oliveira', 7200),
+('Pedro', 'Souza', 4800),
+('Ana', 'Costa', 6300),
+('Carlos', 'Pereira', 8000),
+('Fernanda', 'Lima', 6700),
+('Lucas', 'Almeida', 5200),
+('Camila', 'Santos', 9000),
+('Gabriel', 'Rocha', 7800),
+('Júlia', 'Martins', 6900);
 
 select * from people;
 
